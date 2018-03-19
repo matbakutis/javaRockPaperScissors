@@ -66,6 +66,7 @@ public class Player {
                     System.out.println("You typed \"" + input.toLowerCase() + "\", that doesn\'t match any of the choices.\nPlease type \"rock\", \"paper\", or \"scissors\"!");
                     input = Game.scanner.nextLine();
             }
+            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n");
         } while (keepGoing);
     }
 
